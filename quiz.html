@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="python-logo.png ">
+</head>
+
+
+<style>
+
+html{
+    background-color: rgba(189, 188, 188, 0.256);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: #57bce0;
+    overflow: auto;
+
+}
+ul{
+   
+    padding:0;
+    margin: 0 0 0 150px;
+    list-style: none;
+
+}
+li{
+    float:left;
+
+}
+.logo img{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 50px;
+}
+nav a{
+width: 100px;
+display:block;
+padding:20px;
+text-decoration: none;
+font-family: Arial;
+color: #e0e80b;
+text-align: center;
+}
+
+    .dropdown{
+        display: inline-block;
+        font-family: Arial;
+    }
+    .dropdown button{
+        margin-top: 12px;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        background-color: #57bce0;
+        color: #e0e80b;
+        width: 50px;
+        font-style: bold;
+    }
+    .dropdown a{
+        display: block;
+        color: #e0e80b;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-style: bold;
+    }
+    .dropdown .content{
+        display: none;
+        position: absolute;
+        background-color: #46b9e3;
+        min-width: 100px;
+        box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    }
+    .dropdown:hover .content{
+        display: block;
+    }
+
+
+    .dropdown{
+        align-items: center;
+    }
+    .dropdown a:hover{
+    background-color: #3e9ec0;
+}
+
+
+
+.head{
+    font-style: bold;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.text{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+
+</style>
+<body>
+<div class="logo"><a href = "index.html"><img src = "python-logo.png"></a>
+</div>
+
+
+    <nav>
+        <ul>
+            <div class="navText">
+            <li><a href = "index.html"> Home</a></li>
+            <li><a href = "miniSPR.html"> Mini Projects</a></li>
+
+            <div class="dropdown">
+                <button>Lessons</button>
+                <div class="content">
+                    <a href="printPGE.html">Printing</a>
+                    <a href="variPGE.html">Variables</a>
+                    <a href="opePGE.html">Operators</a>
+                </div>
+            </div>
+            </div>
+        </ul>
+    </nav>
+
+
+<p>
+<div class="head">Quiz Mini Project<br></div>
+<div class="text">
+placeholder
+</div>
+</p>
+</body>
+</html>
